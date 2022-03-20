@@ -8,7 +8,7 @@ def solution(scoville, K):
     finish = False
     
     while finish==False: 
-        # 만약 최소값이 K보다 크면 return
+        # 만약 최소값이 K보다 크면 return 
         if scoville[0]>=K:
             return answer
         # 만약 최소값이 K보다 크지 않은데 힙에 1개 요소만 있으면 break
