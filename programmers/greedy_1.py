@@ -12,4 +12,3 @@ def solution(n, lost, reserve):
             reserve_n.remove(i + 1)
     
     return answer
-출처: https://kdgt-programmer.tistory.com/3 [유치원생 개발자 블로그:티스토리]
